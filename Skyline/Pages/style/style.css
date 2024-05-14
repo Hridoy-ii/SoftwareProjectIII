@@ -1,0 +1,105 @@
+/* default colors custom */
+
+.sec-sky{
+    color: #67C1C4;
+}
+.skyline{
+    color: #03989E;
+}
+.lime-green{
+    color: rgba(3, 152, 158, 0.75);
+}
+.sky-shade{
+    color: rgba(0, 137, 142, 0.25);
+}
+.gray1{
+    color: #AAAAAA;
+}
+.gray2{
+    color: #8A8A8A;
+}
+.gray3{
+    color: #D5D5D5;
+}
+.reed{
+    color: #FF0000;
+}
+
+
+
+/*....................*/
+hr {
+    border: 5px solid #D5D5D5;
+    border-radius: 5px;
+
+}
+
+.logo{
+
+}
+.navbar img{
+    max-height: 35px;
+    
+}
+
+.title{
+    color: #03989E;
+}
+.font-oswald{
+    font-family: oswald;
+}
+.nav-link li{
+    padding: 5px 10px;
+}
+.btn-hover li:hover{
+    text-decoration: underline;
+    background: none;
+    transition-duration: 0.2s;
+    text-decoration-color: rgba(3, 152, 158, 0.75);
+}
+
+
+/* search box  */
+.search-box{
+    background-color: rgba(0, 137, 142, 0.25);
+    border-radius: 10px;
+    margin-top: -6px;
+}
+.search-box-property {
+    border-radius: 10px;
+    margin-top: -6px;
+}
+.search-div{
+    margin-bottom: 5px;
+}
+
+
+/* new property section */
+.new-prperty{
+    margin-top: 10px;
+}
+
+
+/* new agency section */
+.new-agency{
+    border-top: 1px solid #8A8A8A;;
+    border-bottom: 1px solid #8A8A8A;;
+}
+
+
+/* footer */
+.footer{
+    background-image: url("/images/Rectangle\ 62.png");
+    max-height: 148px;
+
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+
+
+.rate-box{
+    background: #67C1C4;
+
+}

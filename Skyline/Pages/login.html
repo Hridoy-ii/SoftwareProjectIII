@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skyline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/7f2d387e87.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Pages/style/style.css">
+</head>
+
+<body>
+    <!-- Mobile Navigation -->
+    <div class="nav-bar">
+        <div class="navbar">
+            <div class="navbar-start w-4/5">
+                <img src="../logo1.png" alt="">
+                <a class="title text-4xl ms-3">SkylineRealEstate</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu nav-link menu-horizontal px-1 text-xl m ">
+                    <li><a href="../Home.html">Home</a></li>
+                    <li><a href="/Pages/Properties.html">Property</a></li>
+                    <li><a href="/Pages/Agencies.html">Agencies</a></li>
+                    <li><a>About</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end w-1/5">
+                <a href="/Pages/login.html" class="btn btn-link px-5 py-1 text-xl	border-solid border border-slate-400 rounded-lg">Login</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Login Form-->
+    <div class="container flex justify-center">
+        <div class="hero min-h-screen ">
+            <div class="hero-content flex-col border py-4 px-12">
+                <div class="text-center lg:text-left">
+                    <h1 class="text-5xl font-bold mt-4">Login</h1>
+                </div>
+                <div class="card shrink-0 w-full max-w-sm bg-base-100">
+                    <form class="card-body">
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Email</span>
+                            </label>
+                            <input type="email" placeholder="email" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Password</span>
+                            </label>
+                            <input type="password" placeholder="password" class="input input-bordered" required />
+                            <label class="label">
+                                <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                            </label>
+                        </div>
+                        <div class="form-control my-6">
+                            <button class="btn btn-wide btn-accent">Login</button>
+                        </div>
+                        <p class="text-center mb-4">Sign in with</p>
+                        <div class="flex items-center justify-center space-x-4">
+                            <i class="fab fa-facebook text-blue-500 text-2xl"></i>
+                            <i class="fab fa-linkedin text-blue-500 text-2xl"></i>
+                            <i class="fab fa-google text-blue-500 text-2xl"></i>
+                        </div>
+                        <p class="text-center">
+                            Haven’t an account? <span class="text-red-500 font-bold"> <a href="/Pages/Signup.html">Sign Up</a></span>
+                        </p>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <footer class="footer p-10 bg-neutral text-neutral-content flex justify-center">
+            <div class="absolute flex justify-center">
+                <h6 class="font-semibold text-2xl font-oswald text-white tracking tracking-widest">Together enjoy the
+                    world</h6>
+            </div>
+            </div>
+        </footer>
+    </footer>
+
+</body>
+
+</html>
